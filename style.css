@@ -1,3 +1,20 @@
 body {
     background-color: lightblue;
 }
+h1{
+    font-style: italic;
+    font-family: "Bookman Old Style";
+
+}h1:hover{
+     font-style: italic;
+     font-family: "Bookman Old Style";
+    color: chocolate;
+ }
+ .a{
+     color: black;
+     font-family: Arial;
+ }
+ .a:hover{
+     color: chocolate;
+     font-family: "Bookman Old Style";
+ }
