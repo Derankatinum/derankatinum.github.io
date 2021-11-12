@@ -1,11 +1,14 @@
+
 body {
     background-color: lightblue;
 }
 h1{
     font-style: italic;
     font-family: "Bookman Old Style";
+    color: black;
 
-}h1:hover{
+}
+h1:hover{
      font-style: italic;
      font-family: "Bookman Old Style";
     color: chocolate;
@@ -13,8 +16,18 @@ h1{
  .a{
      color: black;
      font-family: Arial;
+     text-decoration: none;
  }
  .a:hover{
      color: chocolate;
      font-family: "Bookman Old Style";
+     text-decoration: none;
  }
+.bg-image{
+    /* The image used */
+    background-image: url("tboi.jpg");
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}

@@ -6,4 +6,8 @@ body{
 }
 .bruh{
 font-style: italic;
+    text-decoration: none;
+}
+.bruh:hover{
+    color: chocolate;
 }
